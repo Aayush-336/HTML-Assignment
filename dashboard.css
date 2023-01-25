@@ -1,0 +1,149 @@
+.main-container {
+    background-color: #FAFAFA;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+
+.dashboard-item {
+    background-color: white;
+    padding-left: 0;
+    padding: 30px;
+    margin-left: 6px;
+}
+
+.item-image-div {
+    align-self: center;
+    padding: 0;
+}
+
+
+.item-image {
+    width: 40px;
+}
+
+.item-number {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.item-number,
+.item-text {
+    margin: 0;
+}
+
+.item-text {
+    font-size: 12px;
+}
+
+.item-data {
+    align-items: center;
+}
+
+.sale-image{
+    width: 100%;
+    /* width: max(800px, 100%); */
+}
+
+.sale-image-type {
+    font-size: 12px;
+    color: #ADADAD;
+    margin: 0 10px;
+}
+
+.sale-image-type:hover{
+    cursor: pointer;
+}
+
+.sale-image-type-selected {
+    color: #C8242F;
+    border-bottom: 1px solid #C8242F;
+}
+
+.circle {
+    padding: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+    width: 10px;
+    max-height: 10px;
+    aspect-ratio: 1/1;
+    display: inline-block;
+}
+
+#chart-item-1 {
+    background-color: rgb(200, 36, 47);
+}
+
+#chart-item-2 {
+    background-color: rgb(162, 184, 108);
+}
+
+#chart-item-3 {
+    background-color: rgb(241, 108, 32);
+}
+
+#chart-item-2 {
+    background-color: rgb(235, 200, 68);
+}
+
+.bullets {
+    margin: 5px 0;
+}
+
+.sale-chart {
+    max-width: 246px;
+    margin: 0 auto;
+}
+
+.circle-text {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.circle,
+.circle-text {
+    vertical-align: middle;
+}
+
+#view-all-but {
+    color: #C8242F;
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+}
+
+.headers {
+    font-size: min(2vw, 15px);
+    color: #ADADAD;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+
+.data {
+    color: #3E3E3E;
+    font-size: 15px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+.status-successful {
+    color: rgba(60, 221, 95);
+    background-color: rgb(235, 255, 239);
+    border-radius: 5px;
+    padding: 2px 8px;
+}
+
+.status-failed {
+    color: rgb(255, 69, 69);
+    background-color: rgba(255, 69, 69, 0.2);
+    border-radius: 5px;
+    padding: 2px 8px;
+}
+
+.status-pending {
+    color: rgb(186, 186, 186);
+    background-color: rgba(186, 186, 186, 0.2);
+    border-radius: 5px;
+    padding: 2px 8px;
+}
