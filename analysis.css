@@ -3,158 +3,99 @@
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-
-.dashboard-item {
-    background-color: white;
-    padding-left: 0;
-    padding: 30px;
-    margin-left: 6px;
+.dashed-border{
+    border-style: dashed;
 }
 
-.item-image-div {
-    align-self: center;
-    padding: 0;
+.disabled-text{
+    color: rgba(0,0,0,0.5)
 }
 
-
-.item-image {
-    width: 40px;
-}
-
-.item-number {
-    font-size: 25px;
-    font-weight: 500;
-
-}
-
-.item-number,
-.item-text {
-    margin: 0;
-    text-align: center;
-}
-
-.item-text {
+.small-text{
     font-size: 12px;
 }
 
-.item-data {
-    align-items: center;
-    padding: 0 12px;
+input[type='file']{
+    display: none;
 }
 
-.sale-image {
-    width: 100%;
-    /* width: max(800px, 100%); */
+input[type="radio"]:checked{
+    background-color: #C8242F;
+    border-color: #C8242F;
 }
 
-.sale-image-type {
-    font-size: 12px;
-    color: #ADADAD;
-    margin: 0 10px;
+input[type="checkbox"]{
+    background-color: rgba(173, 173, 173, 0.3);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+    
 }
 
-.sale-image-type:hover {
+input[type="checkbox"]:checked{
+    background-color: #C8242F;
+    border-color: #C8242F;
+}
+
+.custom-file-upload {
+    color: #C8242F;
+    border-color: #C8242F;
+    border-width: 1px;
+    border-style: solid;
+    padding: 6px 12px;
     cursor: pointer;
 }
-
-.sale-image-type-selected {
-    color: #C8242F;
-    border-bottom: 1px solid #C8242F;
+.snackbar-div{
+    margin-top: 10px;
 }
-
-.circle {
-    padding: 10px;
-    background-color: darkblue;
-    border-radius: 50%;
-    width: 10px;
-    max-height: 10px;
-    aspect-ratio: 1/1;
-    display: inline-block;
-}
-
-#chart-item-1 {
-    background-color: rgb(200, 36, 47);
-}
-
-#chart-item-2 {
-    background-color: rgb(162, 184, 108);
-}
-
-#chart-item-3 {
-    background-color: rgb(241, 108, 32);
-}
-
-#chart-item-2 {
-    background-color: rgb(235, 200, 68);
-}
-
-.bullets {
-    margin: 5px 0;
-}
-
-.sale-chart {
-    max-width: 246px;
-    margin: 0 auto;
-}
-
-.circle-text {
-    display: inline;
-    padding: 0;
-    margin: 0;
-    margin-left: 5px;
-}
-
-.circle,
-.circle-text {
-    vertical-align: middle;
-}
-
-#view-all-but {
-    color: #C8242F;
-    background-color: transparent;
-    border: none;
-    font-size: 12px;
-}
-
-.headers {
-    font-size: min(2vw, 15px);
-    color: #ADADAD;
-    letter-spacing: 3px;
-    font-weight: normal;
-}
-
-.data {
-    color: #3E3E3E;
-    font-size: 15px;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    display: inline-block;
-}
-
-.status-successful {
-    color: rgba(60, 221, 95);
-    background-color: rgb(235, 255, 239);
+.snackbar{
+    border: 1px solid;
+    padding: 10px 5px;
+    margin-right: 40px;
     border-radius: 5px;
-    padding: 2px 8px;
 }
 
-.status-failed {
-    color: rgb(255, 69, 69);
-    background-color: rgba(255, 69, 69, 0.2);
-    border-radius: 5px;
-    padding: 2px 8px;
+.snackbar-text{
+    margin-left: 10px;
 }
 
-.status-pending {
-    color: rgb(186, 186, 186);
-    background-color: rgba(186, 186, 186, 0.2);
-    border-radius: 5px;
-    padding: 2px 8px;
+.snackbar-error{
+border-color: #C8242F;
+color: rgba(200, 36, 47,1);
+}
+
+.snackbar-info{
+    border-color:#00B9E1;
+    color: rgba(0, 185, 225, 1);
+}
+
+.snackbar-warning{
+border-color: #FFA800;
+color: rgba(255, 168, 0, 1);
+}
+
+.snackbar-success{
+    border-color: #00AF27;
+color: rgba(0, 175, 39,1);
 }
 
 .icon {
     width: 18.76px;
     height: 17.82px;
     background-repeat: no-repeat;
+}
+.icon-error{
+    background-image: url("assets/error-icon.svg");
+}
+.icon-info{
+    background-image: url("assets/info-icon.svg");
+}
+.icon-warning{
+    background-image: url("assets/warning-icon.svg");
+}
+.icon-success{
+    background-image: url("assets/success-icon.svg");
+}
+.icon-upload{
+    background-image: url("assets/cloud-upload-icon.svg");
 }
 
 .icon-toggle {
