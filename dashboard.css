@@ -6,9 +6,8 @@
 
 .dashboard-item {
     background-color: white;
-    padding-left: 0;
     padding: 30px;
-    margin-left: 6px;
+    margin: 5px;
 }
 
 .item-image-div {
@@ -34,6 +33,7 @@
 }
 
 .item-text {
+    white-space: nowrap;
     font-size: 12px;
 }
 
@@ -43,8 +43,7 @@
 }
 
 .sale-image {
-    width: 100%;
-    /* width: max(800px, 100%); */
+    width: max(40vw, 300px);
 }
 
 .sale-image-type {
@@ -93,7 +92,8 @@
 }
 
 .sale-chart {
-    max-width: 246px;
+    min-width: 250px;
+    width: max(15vw, 250px);
     margin: 0 auto;
 }
 
@@ -117,7 +117,7 @@
 }
 
 .headers {
-    font-size: min(2vw, 15px);
+    font-size: max(1vw, 15px);
     color: #ADADAD;
     letter-spacing: 3px;
     font-weight: normal;
@@ -155,6 +155,7 @@
     width: 18.76px;
     height: 17.82px;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .icon-toggle {
@@ -222,6 +223,7 @@
 
 .icon-dropdown{
     background-image: url("assets/downward-arrow.svg");
+    background-position: center;
 }
 
 
@@ -262,10 +264,14 @@
     color: rgba(200, 36, 47, 1)
 }
 
-
-
 .sidebar-item {
     padding: 10px;
+}
+
+.sidebar-item:hover{
+    cursor: pointer;
+    background-color: rgba(200, 36, 47, 0.05) !important;
+    border-radius: 5px !important;
 }
 
 .sidebar-text-span {
@@ -276,7 +282,27 @@
     margin-left: 10px;
 }
 
+.hover-cursor:hover{
+    cursor: pointer;
+}
+
 
 .sidebar-text-hidden, .sidebar-company-logo-hidden{
     display: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .item-number{
+        font-size: 1.5rem;
+    }
+    .item-image{
+        width: 30px;
+    }
+    .circle-text{
+        font-size: 0.8rem;
+    }
+    .profile-name{
+        display: none;
+    }
+}
+

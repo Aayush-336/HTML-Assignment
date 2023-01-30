@@ -1,6 +1,6 @@
 :root {
     --my-red: rgb(200, 36, 47);
-    --my-transparent-red: rgba(200, 36, 47, 0.5)
+    --my-transparent-red: rgba(200, 36, 47, 0.8)
 }
 
 html,
@@ -9,14 +9,13 @@ body {
 }
 
 .my-container {
-    margin: auto;
     font-weight: 400;
     font-size: larger;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    width: 85%;
+    width: 100%;
 }
 
 .login-container {
@@ -110,7 +109,7 @@ body {
 }
 
 .login-text p {
-    font-size: 30px;
+    font-size: max(25px, 1em);
     margin: 10px 0 20px 0;
 }
 
@@ -128,10 +127,9 @@ body {
     aspect-ratio: 1/1;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .circle {
-        width: max(30vw, 200px);
-
+        width: max(60vw, 300px);
     }
 
     .my-container {

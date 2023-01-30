@@ -17,7 +17,8 @@
 
 .form-select {
     font-size: medium;
-    padding: 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .small-text {
@@ -54,6 +55,7 @@ input[type="checkbox"]:checked {
 }
 
 .snackbar-div {
+    width: 50%;
     margin-top: 10px;
 }
 
@@ -122,17 +124,18 @@ input[type="checkbox"]:checked {
 .tab-label {
     font-weight: 600;
 }
-
+.tab-label-div:hover{
+    cursor: pointer;
+}
 .tab-label-div.selected {
     border-bottom: 3px solid #C8242F;
     color: #c8242f;
-
 }
-
 .icon {
     width: 18.76px;
     height: 17.82px;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .icon-error {
@@ -207,6 +210,7 @@ input[type="checkbox"]:checked {
     height: 26px;
     display: inline-block;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .icon-notification {
@@ -260,11 +264,16 @@ input[type="checkbox"]:checked {
     color: rgba(200, 36, 47, 1)
 }
 
-
-
 .sidebar-item {
     padding: 10px;
 }
+
+.sidebar-item:hover{
+    cursor: pointer;
+    background-color: rgba(200, 36, 47, 0.05);
+    border-radius: 5px;
+}
+
 
 .sidebar-text-span {
     font-size: 16px;
@@ -278,4 +287,23 @@ input[type="checkbox"]:checked {
 .sidebar-text-hidden,
 .sidebar-company-logo-hidden {
     display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .icon-profile{
+        width: 36px;
+        height: auto;
+    }
+    .profile-name{
+        display: none;
+    }
+    .snackbar{
+        margin: 0;
+    }
+    .snackbar-div{
+        width: 100%;
+    }
+    .snackbar-text{
+        font-size: 0.8rem;
+    }
 }
