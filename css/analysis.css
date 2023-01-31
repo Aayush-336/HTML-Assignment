@@ -139,27 +139,27 @@ input[type="checkbox"]:checked {
 }
 
 .icon-error {
-    background-image: url("assets/error-icon.svg");
+    background-image: url("../assets/error-icon.svg");
 }
 
 .icon-info {
-    background-image: url("assets/info-icon.svg");
+    background-image: url("../assets/info-icon.svg");
 }
 
 .icon-warning {
-    background-image: url("assets/warning-icon.svg");
+    background-image: url("../assets/warning-icon.svg");
 }
 
 .icon-success {
-    background-image: url("assets/success-icon.svg");
+    background-image: url("../assets/success-icon.svg");
 }
 
 .icon-upload {
-    background-image: url("assets/cloud-upload-icon.svg");
+    background-image: url("../assets/cloud-upload-icon.svg");
 }
 
 .icon-toggle {
-    background-image: url("assets/menu-bar.svg");
+    background-image: url("../assets/menu-bar.svg");
 }
 
 .icon-toggle:hover {
@@ -167,36 +167,36 @@ input[type="checkbox"]:checked {
 }
 
 .icon-dashboard {
-    background-image: url("assets/dashboard-default.svg");
+    background-image: url("../assets/dashboard-default.svg");
 }
 
 .icon-analysis {
-    background-image: url("assets/graph-default.svg");
+    background-image: url("../assets/graph-default.svg");
 }
 
 .icon-inbox {
-    background-image: url("assets/inbox-default.svg");
+    background-image: url("../assets/inbox-default.svg");
 }
 
 .icon-history {
-    background-image: url("assets/clock-default.svg");
+    background-image: url("../assets/clock-default.svg");
 }
 
 .icon-users {
-    background-image: url("assets/user-default.svg");
+    background-image: url("../assets/user-default.svg");
 }
 
 .icon-maintenance {
-    background-image: url("assets/maintenance-default.svg");
+    background-image: url("../assets/maintenance-default.svg");
 }
 
 .icon-setting {
-    background-image: url("assets/setting-default.svg");
+    background-image: url("../assets/setting-default.svg");
 }
 
 .icon-search {
     display: inline-block;
-    background-image: url("assets/search-icon.svg");
+    background-image: url("../assets/search-icon.svg");
 }
 
 #search-text-input {
@@ -214,7 +214,7 @@ input[type="checkbox"]:checked {
 }
 
 .icon-notification {
-    background-image: url("assets/notification-icon.svg");
+    background-image: url("../assets/notification-icon.svg");
 }
 
 .icon-profile {
@@ -223,36 +223,36 @@ input[type="checkbox"]:checked {
 }
 
 .icon-dropdown {
-    background-image: url("assets/downward-arrow.svg");
+    background-image: url("../assets/downward-arrow.svg");
 }
 
 
 .icon-dashboard.item-selected {
-    background-image: url("assets/dashboard-active.svg");
+    background-image: url("../assets/dashboard-active.svg");
 }
 
 .icon-analysis.item-selected {
-    background-image: url("assets/graph-active.svg");
+    background-image: url("../assets/graph-active.svg");
 }
 
 .icon-inbox.item-selected {
-    background-image: url("assets/inbox-active.svg");
+    background-image: url("../assets/inbox-active.svg");
 }
 
 .icon-history.item-selected {
-    background-image: url("assets/clock-active.svg");
+    background-image: url("../assets/clock-active.svg");
 }
 
 .icon-users.item-selected {
-    background-image: url("assets/user-active.svg");
+    background-image: url("../assets/user-active.svg");
 }
 
 .icon-maintenance.item-selected {
-    background-image: url("assets/maintenance-active.svg");
+    background-image: url("../assets/maintenance-active.svg");
 }
 
 .icon-setting.item-selected {
-    background-image: url("assets/setting-active.svg");
+    background-image: url("../assets/setting-active.svg");
 }
 
 .sidebar-item.item-selected {
